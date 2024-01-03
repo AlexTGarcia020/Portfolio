@@ -70,24 +70,30 @@ function Navbar() {
                     <div className="menu-content">
                         <div className="link-burger">
                             <div className="individual-burger">
-                                <Icon icon="material-symbols:home-app-logo" className="fs-1" /><h1 className="text-indiviual">Inicio</h1>
+                                <Icon icon="material-symbols:home-app-logo" className="fs-2" /><h1 className="text-indiviual">Inicio</h1>
                             </div>    
                             <div className="individual-burger">
-                                <Icon icon="material-symbols:code" className="fs-1"/><h1 className="text-indiviual">Proyectos</h1>
+                                <Icon icon="material-symbols:code" className="fs-2"/><h1 className="text-indiviual">Proyectos</h1>
                             </div>
                             <div className="individual-burger">
-                                <Icon icon="material-symbols:person-4-outline-rounded" className="fs-1" /><h1 className="text-indiviual">Sobre Mi</h1>
+                                <Icon icon="material-symbols:person-4-outline-rounded" className="fs-2" /><h1 className="text-indiviual">Sobre Mi</h1>
                             </div>                                
                         </div>
                             
                             <div className="link-burger-II">
-                                <Icon icon="akar-icons:linkedinv2-fill" className="fs-3" />
+                                <div className="individual-burger-two">
+                                    <Icon icon="akar-icons:linkedinv2-fill" className="fs-3" /><h1 className="text-indiviual">LinkedIn</h1>
+                                </div>
                             </div>
                             <div className="link-burger-II">
-                                <Icon icon="uil:github-alt" className="fs-3" />
+                                 <div className="individual-burger-two">
+                                    <Icon icon="uil:github-alt" className="fs-3" /><h1 className="text-indiviual">Github</h1>
+                                 </div>   
                             </div>    
                             <div className="link-burger-II">
-                                <Icon icon="mdi:whatsapp" className="fs-3" />
+                                <div className="individual-burger-two">
+                                    <Icon icon="mdi:whatsapp" className="fs-3" /><h1 className="text-indiviual">WhatsApp</h1>
+                                </div>    
                             </div>
                     </div>
               </Menu>

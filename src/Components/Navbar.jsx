@@ -1,24 +1,29 @@
 import React, { useState } from "react";
 import { animated } from "@react-spring/web";
-import "../CSS/Navbar.css";
+import { slide as Menu } from 'react-burger-menu';
 import { Icon } from "@iconify/react";
+import { useMediaQuery } from 'react-responsive';
+
+import "../CSS/Navbar.css";
+
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const isMobile = useMediaQuery({ maxWidth: 768 });
 
-  
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+  const handleMenuStateChange = (state) => {
+    setIsMenuOpen(state.isOpen);
   };
 
+  const menuClassName = isMenuOpen ? "navbar show-menu" : "navbar hide-menu";
+
   return (
-    <nav className="navbar">
-        <div className="topNav">
-        </div>
-            <ul className="navbar-icons">
-                <animated.li>
-                <div className="mt-3">
-                    <div className="icon-box d-flex gap-2">
+    <nav className={menuClassName}>
+      <div className="topNav"></div>
+      <ul className="navbar-icons">
+        <animated.li>
+          <div className="mt-3">
+            <div className="icon-box d-flex gap-2">
                         <div className="iconContent">
                             <Icon icon="material-symbols:home-app-logo" className="fs-3" />
                         </div>
@@ -45,11 +50,25 @@ function Navbar() {
                 </div>
                 </animated.li>
             </ul>
-      <div className="mobile-menu-toggle" onClick={toggleMenu}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+            {isMobile && (
+                <Menu 
+                slide 
+                right 
+                isOpen={isMenuOpen} 
+                onStateChange={handleMenuStateChange}
+                customBurgerIcon={<img src="/Burger.svg"/> }
+                overlayClassName="overlay-burger"
+                menuClassName="menu-burger"
+                customCrossIcon={<img src="/CloseB.svg" /> }
+                >
+                <div className="menu-content">
+                    <a id="home" className="menu-item" href="/">Home</a>
+                    <a id="about" className="menu-item" href="/about">About</a>
+                    <a id="contact" className="menu-item" href="/contact">Contact</a>
+                    <a className="menu-item--small" href="">Settings</a>
+                </div>
+                </Menu>
+            )}
     </nav>
   );
 }

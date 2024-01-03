@@ -1,4 +1,102 @@
+
 body {
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
+.app-content {
+  z-index: -9999;
+  height: 200vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.parallax-effect {
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to top, #30cfd0 0%, #33086700 100%);
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+ .content-text-main {
+    margin-top: -100px;
+    padding-left: 62px;
+ }
+
+.text-inicio {
+  font-size: 26px;
+  line-height: 2.8rem;
+  letter-spacing: -1px;
+  width: 720px;
+  font-weight: 200;
+}
+
+.content-text-secondary {
+  display: flex;
+  justify-content: end;
+  left: 400px;
+  top: -130px;
+}
+
+.btn {
+  width: 30px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  outline: 2px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgb(105, 127, 255);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+}
+
+.scroll {
+  width: 5px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgb(105, 127, 255);
+  animation: scroll_4013 2s linear infinite;
+  transform: translateY(40%);
+}
+
+.btn:after {
+  content: 'scroll';
+  position: absolute;
+  top: 120%;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.btn:focus {
+  outline: 2px solid rgb(255, 255, 255);
+}
+
+@keyframes scroll_4013 {
+  0% {
+    transform: translateY(40%);
+  }
+
+  50% {
+    transform: translateY(90%);
+  }
+};
+
+
+@media only screen and (min-width: 1268px) {
+  .content-text-secondary {
+    display: flex;
+    justify-content: end;
+    left: 400px;
+    top: -130px;
+    position:  relative !important;
+  }
+}

@@ -95,7 +95,7 @@ li {
   }
 
   .button-burger {
-    position: fixed;
+    position: absolute;
     width: 40px;
     height: 40px;
     right: 40px;
@@ -241,6 +241,33 @@ li {
     flex-direction: column;
     gap: 20px !important;
     padding: 0px !important;
-    top: 170px !important;
+    top: 100px !important;
     position: relative;
   }
+
+
+  @media only screen and (min-width: 768px) {
+    .img-fluid {
+      width: 120px;
+      margin-left: 15vw; 
+    }
+  
+    @media only screen and (min-width: 992px) {
+      .img-fluid {
+        margin-left: 30vw; 
+      }
+    }
+  
+    @media only screen and (min-width: 1200px) {
+        .img-fluid {
+          margin-left: 43vw;
+        }
+      }
+    }
+
+    @media only screen and (min-width: 1400px) {
+      .img-fluid {
+        margin-left: 51.1vw;
+      }
+    }
+  

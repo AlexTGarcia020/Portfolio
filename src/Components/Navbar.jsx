@@ -18,8 +18,9 @@ function Navbar() {
   const menuClassName = isMenuOpen ? "navbar show-menu" : "navbar hide-menu";
 
   return (
-    <nav className={menuClassName}>
+      <nav className={menuClassName}>
       <div className="topNav"></div>
+      {!isMobile && (
       <ul className="navbar-icons">
         <animated.li>
           <div className="mt-3">
@@ -50,24 +51,47 @@ function Navbar() {
                 </div>
                 </animated.li>
             </ul>
+        )}
             {isMobile && (
-                <Menu 
+             <div className="">
+                <img src="/Logo.svg" alt="logo-alex-nordic" className="img-burger"/>
+              <Menu 
                 slide 
                 right 
                 isOpen={isMenuOpen} 
                 onStateChange={handleMenuStateChange}
                 customBurgerIcon={<img src="/Burger.svg"/> }
+                burgerButtonClassName="button-burger"
                 overlayClassName="overlay-burger"
                 menuClassName="menu-burger"
-                customCrossIcon={<img src="/CloseB.svg" /> }
+                customCrossIcon={<img src="/CloseB.svg"/> }
+                crossButtonClassName="cross-burger"
                 >
-                <div className="menu-content">
-                    <a id="home" className="menu-item" href="/">Home</a>
-                    <a id="about" className="menu-item" href="/about">About</a>
-                    <a id="contact" className="menu-item" href="/contact">Contact</a>
-                    <a className="menu-item--small" href="">Settings</a>
-                </div>
-                </Menu>
+                    <div className="menu-content">
+                        <div className="link-burger">
+                            <div className="individual-burger">
+                                <Icon icon="material-symbols:home-app-logo" className="fs-1" /><h1 className="text-indiviual">Inicio</h1>
+                            </div>    
+                            <div className="individual-burger">
+                                <Icon icon="material-symbols:code" className="fs-1"/><h1 className="text-indiviual">Proyectos</h1>
+                            </div>
+                            <div className="individual-burger">
+                                <Icon icon="material-symbols:person-4-outline-rounded" className="fs-1" /><h1 className="text-indiviual">Sobre Mi</h1>
+                            </div>                                
+                        </div>
+                            
+                            <div className="link-burger-II">
+                                <Icon icon="akar-icons:linkedinv2-fill" className="fs-3" />
+                            </div>
+                            <div className="link-burger-II">
+                                <Icon icon="uil:github-alt" className="fs-3" />
+                            </div>    
+                            <div className="link-burger-II">
+                                <Icon icon="mdi:whatsapp" className="fs-3" />
+                            </div>
+                    </div>
+              </Menu>
+            </div>
             )}
     </nav>
   );

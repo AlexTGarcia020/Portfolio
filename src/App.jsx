@@ -7,7 +7,7 @@ function App() {
     <>
       <Navbar />
       <div>
-        <p className='text-white'>Hola</p>
+      {/*   <p className='text-white'>Hola</p> */}
       </div>
     </>
   )

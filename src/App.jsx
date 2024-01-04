@@ -1,7 +1,6 @@
 import React from 'react';
 import { useSpring, animated } from '@react-spring/web';
 import Navbar from './Components/Navbar';
-import Typewriter from './Components/textAnimation';
 import Scroll from './Components/Scroll';
 import MediaQuery from 'react-responsive';
 
@@ -30,23 +29,32 @@ function App() {
           }}
         >
           <section id='inicio'>
-            <div className='d-flex text-start text-white content-text-main p-0'>
-            <MediaQuery minWidth={768}>
-                  {(matches) =>
-                    matches ? (
-                      <h1 className='text-inicio-md  fs-5 ps-5 w-50'>
-                        Este es uno de mis proyectos: mi Portfolio Personal. Aquí podrás ver mis proyectos, siempre actualizados, junto con mi experiencia en tecnologías, metodologías, bibliotecas, frameworks y bases de datos aprendidas. Además, podrás descargar mi CV más abajo. No dudes en contactarme a través de mis redes. Si estás leyendo esto, es probable que seas un reclutador o un colega de profesión. ¡Espero que te guste!<strong> Alex Garcia ©2024</strong>
-                      </h1>
-                    ) : (
-                      <h1 style={{fontSize:"20px", margin:"0", padding:"50px"}}>
-                        Este es uno de mis proyectos: mi Portfolio Personal. Aquí podrás ver mis proyectos, siempre actualizados, junto con mi experiencia en tecnologías, metodologías, bibliotecas, frameworks y bases de datos aprendidas. Además, podrás descargar mi CV más abajo. No dudes en contactarme a través de mis redes. Si estás leyendo esto, es probable que seas un reclutador o un colega de profesión. ¡Espero que te guste!<strong> Alex Garcia ©2024</strong>
-                      </h1>
-                    )
-                  }
-                </MediaQuery>
-            </div>
-            <div className='text-white content-text-secondary'>
-              <Typewriter/>
+            <div className='text-white content-text-main'>
+              <div className='ps-5 d-flex justify-content-center'>
+              <MediaQuery maxWidth={500}>
+                {(matches) =>
+                  matches ? (
+                    <h1 className='text-inicio-sm'>
+                         Este es uno de mis proyectos: mi Portfolio Personal. Aquí podrás ver mis proyectos, siempre actualizados, junto con mi experiencia en tecnologías, metodologías, bibliotecas, frameworks y bases de datos aprendidas. Además, podrás descargar mi CV más abajo. No dudes en contactarme a través de mis redes. Si estás leyendo esto, es probable que seas un reclutador o un colega de profesión. ¡Espero que te guste!<strong> Alex Garcia ©2024</strong>
+                    </h1>
+                  ) : (
+                    <MediaQuery minWidth={501} maxWidth={1300}>
+                      {(matches) =>
+                        matches ? (
+                          <h1 className='text-inicio-md'>
+                               Este es uno de mis proyectos: mi Portfolio Personal. Aquí podrás ver mis proyectos, siempre actualizados, junto con mi experiencia en tecnologías, metodologías, bibliotecas, frameworks y bases de datos aprendidas. Además, podrás descargar mi CV más abajo. No dudes en contactarme a través de mis redes. Si estás leyendo esto, es probable que seas un reclutador o un colega de profesión. ¡Espero que te guste!<strong> Alex Garcia ©2024</strong>
+                          </h1>
+                        ) : (
+                          <h1 className='text-inicio'>
+                            Este es uno de mis proyectos: mi Portfolio Personal. Aquí podrás ver mis proyectos, siempre actualizados, junto con mi experiencia en tecnologías, metodologías, bibliotecas, frameworks y bases de datos aprendidas. Además, podrás descargar mi CV más abajo. No dudes en contactarme a través de mis redes. Si estás leyendo esto, es probable que seas un reclutador o un colega de profesión. ¡Espero que te guste!<strong> Alex Garcia ©2024</strong>
+                          </h1>
+                        )
+                      }
+                    </MediaQuery>
+                  )
+                }
+              </MediaQuery>
+              </div>
             </div>
             <Scroll />
           </section>

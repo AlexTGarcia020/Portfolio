@@ -90,13 +90,3 @@ body {
   }
 };
 
-
-@media only screen and (min-width: 1268px) {
-  .content-text-secondary {
-    display: flex;
-    justify-content: end;
-    left: 400px;
-    top: -130px;
-    position:  relative !important;
-  }
-}

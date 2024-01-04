@@ -1,8 +1,10 @@
 import React from 'react';
 import { useSpring, animated } from '@react-spring/web';
+import MediaQuery from 'react-responsive';
+
 import Navbar from './Components/Navbar';
 import Scroll from './Components/Scroll';
-import MediaQuery from 'react-responsive';
+import Tecnologias from './Components/Tecnologias';
 
 import './App.css';
 
@@ -30,7 +32,7 @@ function App() {
         >
           <section id='inicio'>
             <div className='text-white content-text-main'>
-              <div className='ps-5 d-flex justify-content-center'>
+              <div className='d-flex justify-content-center'>
               <MediaQuery maxWidth={500}>
                 {(matches) =>
                   matches ? (
@@ -59,6 +61,9 @@ function App() {
             <Scroll />
           </section>
         </animated.div>
+          <section id='tecnologias'>
+                <Tecnologias />
+          </section>
       </div>
     </>
   );

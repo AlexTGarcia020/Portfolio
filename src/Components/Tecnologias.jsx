@@ -25,14 +25,13 @@ function Tecnologias () {
               <Icon className="text-white icon-media me-2" style={{ fontSize: "33px" }} icon="mdi:github-box" />
               <div className="responsive-about">
                 <p className="text-white fs-4">Descarga Mi </p>
-                <form action="https://uc8bed4f17d5e5cf221bff102283.dl.dropboxusercontent.com/cd/0/get/CKuxsZ_7BR3pcQ_a__dAH-dIv76OThxQoKxFX9FUk8088U9c33R_7tTVjlITMUNiF07Qol8ZIOkNg_KnoHOMPMLzyB_f841aeS7-ZttckHmWBQfldfVh-USzO5ysLxSZKjazoNMAnsuuaFyT9oa5neNTCL93PmOgL8jQL0NEUx0pRHKc_jj6mdmjPW9mIh49ijI/file#" target="_blank">
+                <form action="https://www.dropbox.com/scl/fi/30gig6l5ityc8em5qn3xh/CV-Alex-Garc-a.pdf?rlkey=1g7w7cujiekf91qpshx5thv8w&dl=0" target="_blank">
                   <button className="btn-cv" type="submit">CV<Icon className="fs-4" icon="material-symbols:download" /></button>
                 </form>
               </div>
             </div>
           </div>
         </div>
-            <hr className="w-50 text-white" style={{marginLeft:"553px"}}/>
             <div className="text-white content-texts" style={{marginLeft:"42.6%"}}>
                 <h2 className="fs-5 text-about">Desarrollador web apasionado por el fútbol y los videojuegos. <br/>Actualmente viviendo en Montevideo, Uruguay.</h2>
                 <br />

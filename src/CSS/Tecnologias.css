@@ -44,11 +44,19 @@
         display: flex;
         align-items: center;
         justify-content: start;
-        margin-top: 10px;
+        gap: 1px;
+        margin-left: 23px !important;
+      }
+      
+      .icons-media {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-top:10px;
         gap: 1px;
         margin-left: 553px;
       }
-      
+
     .responsive-about  p {
         margin-bottom: 0;
      }
@@ -78,13 +86,13 @@
         .skills {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            grid-gap: 20px;     
+            grid-gap: 1px;     
             width: 85%;
         }
           
           .skills div {
             text-align: center;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 800;
           }
 
@@ -123,7 +131,6 @@
             background-size: cover;
             background-position: center;
             z-index: 1; 
-            box-shadow: none !important;
           }
 
           .container {
@@ -180,111 +187,89 @@
 
 
 
-    @media only screen and (max-width: 760px) {
+    @media only screen and (max-width: 600px) {
         .fondo-imagen {
             position: absolute;
             top: 100%;
-            left: 0;
-            width: 35%;
-            height: 100%;
-            margin-left: 50px;
-            margin-top: 30px;
-            background-size: cover;
-            background-position: center;
-            z-index: 1; 
-            box-shadow: none !important;
+            width: 78%;
+            height: 40%;
+            background-position: top !important;
+            border-radius: 12.8rem;
           }
 
-          .container {
+          .tecnologias-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 250px;
+          }
+
+          .text-main-tecnologias {
+            font-size: 35px;
+            display: flex;
+            justify-content: center;
+            margin-left: 600px;
+          }
+
+          .strong-class { 
+            white-space: nowrap;
+            margin-left: 10px;
+          }
+
+          .icons-media {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            padding: 0;
+          }
+
+
+          .responsive-about {
+            margin: 0 !important;
+          }
+          
+          .btn-cv {
+            background-image: linear-gradient(to right, #330867  11%, #30cfd0   66%);
+            margin: 10px;
+            padding: 5px 20px;
+            margin-left: 8px;
+        }
+
+          .content-texts {
+            margin: 0 !important;
+            margin-left: -200px !important;
+          }
+
+          .text-about {
+            font-size: 16px !important;
+            text-align: center;
+            width: 250px;
+            margin-left: calc((100% - 525px) / 2);
+          }
+
+          .text-hability {
+            margin: 0;
+            text-align: start;
+            margin-left: -25px;
+          }
+
+          .skills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 2px;
+            padding-right: 130px;
+            padding-left: 30px;     
+        }
+
+        .idiomas {
             display: flex;
             flex-direction: column;
-          }
-
-          .tecnologias-container {
-            position: relative;
-            left: -465px;
-            top: 70px;
-            margin-right: 150px !important;
-          }
-
-          .icons-media {
-            display: flex;
-            align-items: center;
-            justify-content: start;
-            margin-top: 40px;
-            gap: 1px;
-            margin-left: 88px;
-          }
-          
-          .text-main-tecnologias {
-            font-size: 45px;
-            width: 100%;
-          }
-
-          .content-texts {
-            margin-left: 88px !important;
-          }
-
-          .text-about {
-            font-size: 18px !important;
-          }
-
-          .skills {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-gap: 5px;     
+            justify-content: center;
+            margin-left: -100px; 
         }
 
         .hr-two {
-            margin-left: 30px !important;
-        }
-    }
-
-    @media only screen and (max-width: 759px) {
-        .fondo-imagen {
-            position: absolute;
-            top: 100%;
-            width: 20%;
-            height: 100%;
-            box-shadow: none !important;
-          }
-
-          .tecnologias-container {
-            position: relative;
-            left: -470px;
-            top: 70px;
-          }
-
-          .icons-media {
-            display: flex;
-            align-items: center;
-            justify-content: start;
-            margin-top: 40px;
-            gap: 1px;
-            margin-left: -470px;
-          }
-          
-          .text-main-tecnologias {
-            font-size: 45px;
-            width: 100%;
-          }
-
-          .content-texts {
-            margin-left: 88px !important;
-          }
-
-          .text-about {
-            font-size: 18px !important;
-          }
-
-          .skills {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-gap: 5px;     
-        }
-
-        .hr-two {
-            margin-left: 30px !important;
+            margin-left: -38px !important;
         }
     }
 

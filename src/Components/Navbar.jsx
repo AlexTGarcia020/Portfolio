@@ -60,11 +60,11 @@ function Navbar() {
                 right 
                 isOpen={isMenuOpen} 
                 onStateChange={handleMenuStateChange}
-                customBurgerIcon={<img src="/Burger.svg"/> }
+                customBurgerIcon={<img src="/Burger1.svg"/> }
                 burgerButtonClassName="button-burger"
                 overlayClassName="overlay-burger"
                 menuClassName="menu-burger"
-                customCrossIcon={<img src="/CloseB.svg"/> }
+                customCrossIcon={<img src="/Burger.svg"/> }
                 crossButtonClassName="cross-burger"
                 >
                     <div className="menu-content">

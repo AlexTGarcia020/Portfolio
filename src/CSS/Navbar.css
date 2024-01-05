@@ -152,8 +152,8 @@ li {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 10px !important;
-    margin-top: 70px;
+    gap: 0px !important;
+    margin-top: 40px;
     padding: 0px !important;
   }
   

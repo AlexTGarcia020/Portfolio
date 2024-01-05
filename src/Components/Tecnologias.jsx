@@ -14,7 +14,7 @@ function Tecnologias () {
         <div className='row'>
           <div className='col text-center'>
             <div className='tecnologias-container'>
-              <h1 className='text-main-tecnologias text-white' style={{ fontFamily: "" }}>Habilidades<strong className="strong-class"> ( skills )</strong></h1>
+              <h1 className='text-main-tecnologias text-white fw-bold' style={{ fontFamily: "" }}>Habilidades<strong className="strong-class"> ( skills )</strong></h1>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ function Tecnologias () {
             <div className="text-white content-texts" style={{marginLeft:"42.6%"}}>
                 <h2 className="fs-5 text-about">Desarrollador web apasionado por el fútbol y los videojuegos. <br/>Actualmente viviendo en Montevideo, Uruguay.</h2>
                 <br />
-                <h4 className="fs-4 text-hability">Habilidades:</h4>
+                <h4 className="fs-4 text-hability fw-bold">Habilidades Principales:</h4>
                 <br/>
                 <div class="skills">
                     <div>HTML5</div>
@@ -57,7 +57,7 @@ function Tecnologias () {
                     <div>Git</div>
                 </div>
                 <br />
-                <h4 className="fs-4 mt-2 text-hability">Idiomas:</h4>
+                <h4 className="fs-4 mt-2 text-hability fw-bold">Idiomas:</h4>
                 <br/>
                 <div class="idiomas">
                     <div>Español : Nativo</div>

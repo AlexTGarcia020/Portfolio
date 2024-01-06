@@ -17,6 +17,7 @@
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18.2.0",
     "react-responsive": "^9.0.2",
+    "react-router-dom": "^6.21.1",
     "react-typewriter-hook": "^1.0.2"
   },
   "devDependencies": {

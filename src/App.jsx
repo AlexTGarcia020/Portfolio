@@ -5,9 +5,9 @@ import MediaQuery from 'react-responsive';
 import Navbar from './Components/Navbar';
 import Scroll from './Components/Scroll';
 import Tecnologias from './Components/Tecnologias';
+import Proyectos from './Components/Proyectos';
 
 import './App.css';
-import Proyectos from './Components/Proyectos';
 
 function App() {
   const [{ scroll }, set] = useSpring(() => ({ scroll: 0 }));

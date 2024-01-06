@@ -1,0 +1,194 @@
+.row {
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 140px;
+  }
+  
+  .container-proyects {
+    width: 420px !important;
+  }
+  
+  .cards-proyects {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    background-color:  #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items: center;
+    opacity: 0;
+    padding-top: 120px;
+    transition: opacity 0.45s ease !important; 
+    border-radius: 13px;
+    color: white;
+  }
+  
+  .container-proyects:hover .overlay {
+    opacity: 1;
+  }
+  
+  .img-proyects {
+    border-radius: 13px;
+    width: 400px !important;
+    transition: transform 0.45s ease-in !important;
+  }
+  
+
+  /* ---------------------------------------- */
+
+  /* Botones Hover */
+
+  .btn-cv-1 {
+    background-image: linear-gradient(to right, #000000  11%, #00ffd5   66%);
+    border: 1px solid white;
+    margin: 10px;
+    padding: 7px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    margin-left: 10px;
+}
+
+.btn-cv-1:hover {
+    background-position: right center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+  .btn-cv-2 {
+    background-image: linear-gradient(to right, #000000  11%, #0026ff   66%);
+    border: 1px solid white;
+    margin: 10px;
+    padding: 7px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    margin-left: 10px;
+}
+
+.btn-cv-2:hover {
+    background-position: right center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+  .btn-cv-3 {
+    background-image: linear-gradient(to right, #000000  11%, #ff0000   66%);
+    border: 1px solid white;
+    margin: 10px;
+    padding: 7px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    margin-left: 10px;
+}
+
+.btn-cv-3:hover {
+    background-position: right center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+  .btn-cv-4 {
+    background-image: linear-gradient(to right, #000000  11%, #b9b4b4   66%);
+    border: 1px solid white;
+    margin: 10px;
+    padding: 7px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    margin-left: 10px;
+}
+
+.btn-cv-4:hover {
+    background-position: right center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+  .btn-cv-5 {
+    background-image: linear-gradient(to right, #000000  11%, #a08af7   66%);
+    border: 1px solid white;
+    margin: 10px;
+    padding: 7px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    margin-left: 10px;
+}
+
+.btn-cv-5:hover {
+    background-position: right center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-cv-6 {
+    background-image: linear-gradient(to right, #000000  11%, #ff00c8   66%);
+    border: 1px solid white;
+    margin: 10px;
+    padding: 7px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    margin-left: 10px;
+}
+
+.btn-cv-6:hover {
+    background-position: right center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+/* ---------------------------------- */
+
+@media only screen and (max-width:768px) {
+    .row h1 {
+        margin-left: -5px !important;
+        font-size: 50px;
+    }
+    
+    .row {
+        margin-left: -41px;
+        width: fit-content;
+    }
+
+    .text-proyect {
+        margin-top: 130px !important;
+    }
+}

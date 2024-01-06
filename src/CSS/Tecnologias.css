@@ -3,6 +3,7 @@
     .container {
         font-family: 'Rajdhani', sans-serif;
         margin-left: 240px;
+        height: 90vh;
     }
 
     .fondo-container {
@@ -16,7 +17,7 @@
         width: 35%;
         height: 100%;
         margin-left: 50px;
-        margin-top: 20px;
+        margin-top: 80px !important;
         background-size: cover;
         background-position: center;
         z-index: 1; 
@@ -135,7 +136,7 @@
           
     
         .text-main-tecnologias {
-            margin-left: 700px;
+            margin-left: 620px;
             margin-bottom: 35px;
             font-size: 60px !important;
             text-align: center!important;
@@ -155,7 +156,7 @@
             align-items: center;
             justify-content: center !important;
             gap: 1px;
-            margin-left: 43px !important;
+            margin-left: 03px !important;
           }
           
           .icons-media {
@@ -164,7 +165,7 @@
             justify-content: center;
             margin-top:10px;
             gap: 1px;
-            margin-left: 353px !important;
+            margin-left: 1px !important;
           }
     
         .responsive-about  p {
@@ -301,7 +302,7 @@
               width: 550px !important;
               margin-top: 20px;
               margin-bottom: 40px;
-              margin-left: calc((100% - 330px) / 2) !important;
+              margin-left: calc((100% - 330px) / 2);
             }
     
     
@@ -360,7 +361,7 @@
     
               .tecnologias-container {
                 position: relative;
-                left: -190px !important;
+                left: -330px !important;
                 top: 70px;
                 margin-right: 150px !important;
                 margin-bottom: 50px;
@@ -381,7 +382,7 @@
                 justify-content: center;
                 margin-top: 40px;
                 gap: 5px !important;
-                margin-left: 52px !important;
+                margin-left: -52px !important;
                 margin-bottom: 20px;
                 padding: 0;
               }
@@ -435,6 +436,9 @@
             .idiomas div {
               font-size: 21px !important;
           }
+          .btn {
+            margin-top: 200px;
+          }
         }
 
           @media only screen and (min-width: 997px) and (max-width: 1203px) {
@@ -458,7 +462,7 @@
     
               .tecnologias-container {
                 position: relative;
-                left: -270px !important;
+                left: -420px !important;
                 top: 70px;
                 margin-right: 150px !important;
                 margin-bottom: 50px;
@@ -479,7 +483,7 @@
                 justify-content: center;
                 margin-top: 40px;
                 gap: 5px !important;
-                margin-left: 52px !important;
+                margin-left: -42px !important;
                 margin-bottom: 20px;
                 padding: 0;
               }
@@ -533,6 +537,10 @@
             .idiomas div {
               font-size: 21px !important;
           }
+          
+          .btn {
+            margin-top: 150px;
+          }
         }
 
 
@@ -558,7 +566,7 @@
     
               .tecnologias-container {
                 position: relative;
-                left: -380px !important;
+                left: -520px !important;
                 top: 70px;
                 margin-right: 150px !important;
                 margin-bottom: 50px;
@@ -579,7 +587,7 @@
                 justify-content: center;
                 margin-top: 40px;
                 gap: 1px;
-                margin-left: 72px !important;
+                margin-left: -100px !important;
                 margin-bottom: 20px;
                 padding: 0;
               }
@@ -619,6 +627,10 @@
                 margin: 0;
                 margin-left: 10px !important;
             }
+            
+            .btn {
+              margin-top: 250px;
+            }
         }
           
    
@@ -644,15 +656,14 @@
     
               .tecnologias-container {
                 position: relative;
-                left: -465px;
+                left: -585px !important;
                 top: 70px;
                 margin-right: 150px !important;
                 margin-bottom: 50px;
               }
               
               .text-main-tecnologias {
-                font-size: 35px;
-                width: 100%;
+                font-size: 45px !important;  
               }
     
               .responsive-about {
@@ -665,7 +676,7 @@
                 justify-content: center;
                 margin-top: 40px;
                 gap: 1px;
-                margin-left: -52px;
+                margin-left: -242px !important;
                 padding: 0;
               }
     
@@ -678,7 +689,7 @@
               font-size: 16px !important;
               text-align: center;
               width: 250px;
-              margin-left: calc((100% - 400px) / 2);
+              margin-left: calc((100% - 430px) / 2) !important;
             }
     
               .content-texts {
@@ -688,7 +699,7 @@
     
               .skills  {
                 display: grid;
-                margin-left: -50px;
+                margin-left: -70px !important;
                 grid-template-columns: repeat(2, 1fr);    
             }
     
@@ -699,8 +710,8 @@
     
             .idiomas {
                 gap: 0 !important;
-                padding-right: 30px;
-                padding-left: 30px;
+                padding-right: 100px !important;
+                padding-left: 40px !important;
                 margin: 0;
                 margin-left:-50px;
             }
@@ -807,11 +818,12 @@
           .tecnologias-container {
             display: flex;
             justify-content: center;
-            margin-top: 250px;
+            margin-top: 350px;
+            margin-left: -205px;
           }
 
           .text-main-tecnologias {
-            font-size: 35px;
+            font-size: 48px !important;
             display: flex;
             justify-content: center;
             margin-left: -475px;
@@ -828,7 +840,8 @@
             align-items: center;
             justify-content: center;
             padding: 0;
-            margin-left: -470px;
+            margin-left: -150px;
+            margin-bottom: 20px;
           }
 
 
@@ -877,8 +890,8 @@
             gap: 0px;
         }
 
-        .hr-two {
-            margin-left: -38px !important;
+        .btn-two {
+          margin-top: 280px;
         }
     }
 

@@ -7,6 +7,7 @@ import Scroll from './Components/Scroll';
 import Tecnologias from './Components/Tecnologias';
 
 import './App.css';
+import Proyectos from './Components/Proyectos';
 
 function App() {
   const [{ scroll }, set] = useSpring(() => ({ scroll: 0 }));
@@ -63,6 +64,9 @@ function App() {
         </animated.div>
           <section id='tecnologias'>
                 <Tecnologias />
+          </section>
+          <section id="proyectos">
+            <Proyectos />
           </section>
       </div>
     </>

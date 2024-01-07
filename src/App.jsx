@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 import Scroll from './Components/Scroll';
 import Tecnologias from './Components/Tecnologias';
 import Proyectos from './Components/Proyectos';
+import Footer from './Components/Footer';
 
 import './App.css';
 
@@ -67,6 +68,9 @@ function App() {
           </section>
           <section id="proyectos">
             <Proyectos />
+          </section>
+          <section>
+            <Footer />
           </section>
       </div>
     </>

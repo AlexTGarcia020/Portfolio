@@ -1,11 +1,11 @@
 import React from "react";
 import "../CSS/Proyectos.css";
-import { Link } from "react-router-dom";
 
 function Proyectos() {
   return (
     <div className="row p-5" style={{marginTop:"250px"}}>
     <h1 className="text-center text-white fw-bold mt-5 text-proyect mb-5" style={{marginLeft:"-78px"}}>Proyectos</h1>
+     <span className="text-center text-white text-proyect-two">Estos son mis proyectos. Algunos, como Twitter, e-commerce y jardín, son compartidos, mientras que los demás son particulares o están destinados a algún negocio o tienda real. Cada uno tiene una breve descripción. ¡Espero que te gusten!</span> 
     <div className="col-md-4 container-proyects p-0">
       <figure className="d-flex flex-column cards-proyects">
         <img src="/Color.png" className="img-proyects w-100 shadow" alt="Descripción de la imagen" />

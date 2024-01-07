@@ -39,6 +39,11 @@
     width: 400px !important;
     transition: transform 0.45s ease-in !important;
   }
+
+  .text-proyect-two {
+    width: 1200px;
+    margin-bottom: 30px;
+  }
   
 
   /* ---------------------------------------- */

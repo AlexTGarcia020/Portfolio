@@ -189,11 +189,21 @@
     }
     
     .row {
-        margin-left: -41px;
+        margin-left: -30px;
         width: fit-content;
+        padding-left: 45px !important;
+        padding-right: 30px  !important;
     }
 
     .text-proyect {
         margin-top: 130px !important;
+        display: flex;
+        padding-left: 100px;
     }
+
+    .text-proyect-two {
+      display: flex;
+      padding-left: 100px;
+      width: 300px;
+  }
 }

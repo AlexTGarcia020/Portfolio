@@ -230,7 +230,7 @@ li {
 
   .text-indiviual {
     margin-left: 12px !important;
-    margin-top: 11px;
+    margin-top: 5px;
     font-weight: bold;
     font-size: 17px;
   }
@@ -245,6 +245,13 @@ li {
     position: relative;
   }
 
+  .Link-Navbar{
+    text-align: start;
+    text-decoration: none;
+    color: #b8b7ad;
+    width: 210px;
+    display: flex;
+  }
 
   @media only screen and (min-width: 768px) {
     .img-fluid {

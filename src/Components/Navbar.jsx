@@ -5,6 +5,7 @@ import { Icon } from "@iconify/react";
 import { useMediaQuery } from 'react-responsive';
 
 import "../CSS/Navbar.css";
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -32,7 +33,9 @@ function Navbar() {
                             <Icon icon="material-symbols:code" className="fs-3"/>
                         </div>
                         <div className="iconContent">
-                            <Icon icon="material-symbols:person-4-outline-rounded" className="fs-3" />
+                            <Link to={"#tecnologias"}>
+                                <Icon icon="material-symbols:person-4-outline-rounded" className="fs-3" />
+                            </Link>
                         </div>
                             <hr className="vertical-hr me-1" />
                         <div className="iconContentII">
@@ -70,29 +73,41 @@ function Navbar() {
                     <div className="menu-content">
                         <div className="link-burger">
                             <div className="individual-burger">
+                            <a style={{textDecoration:"none"}} className="Link-Navbar" href={"#inicio"}>
                                 <Icon icon="material-symbols:home-app-logo" className="fs-2" /><h1 className="text-indiviual">Inicio</h1>
-                            </div>    
+                            </a>
+                           </div>    
                             <div className="individual-burger">
-                                <Icon icon="material-symbols:code" className="fs-2"/><h1 className="text-indiviual">Proyectos</h1>
-                            </div>
-                            <div className="individual-burger">
+                            <a style={{textDecoration:"none"}} className="Link-Navbar" href={"#tecnologias"}>
                                 <Icon icon="material-symbols:person-4-outline-rounded" className="fs-2" /><h1 className="text-indiviual">Sobre Mi</h1>
+                            </a>
                             </div>                                
+                            <div className="individual-burger">
+                                <a style={{textDecoration:"none"}} className="Link-Navbar" href={"#proyectos"}>
+                                 <Icon icon="material-symbols:code" className="fs-2"/><h1 className="text-indiviual">Proyectos</h1>
+                                </a>
+                            </div>
                         </div>
                             
                             <div className="link-burger-II">
                                 <div className="individual-burger-two">
+                                <a style={{textDecoration:"none"}} className="Link-Navbar" href={"https://www.linkedin.com/in/alex-garcia20/"}>
                                     <Icon icon="akar-icons:linkedinv2-fill" className="fs-3" /><h1 className="text-indiviual">LinkedIn</h1>
+                                </a>
                                 </div>
                             </div>
                             <div className="link-burger-II">
                                  <div className="individual-burger-two">
+                                 <a style={{textDecoration:"none"}} className="Link-Navbar" href={"https://github.com/AlexTGarcia020"}>
                                     <Icon icon="uil:github-alt" className="fs-3" /><h1 className="text-indiviual">Github</h1>
+                                 </a>
                                  </div>   
                             </div>    
                             <div className="link-burger-II">
                                 <div className="individual-burger-two">
+                                <a style={{textDecoration:"none"}} className="Link-Navbar" href={"https://wa.link/yz76f6"}>
                                     <Icon icon="mdi:whatsapp" className="fs-3" /><h1 className="text-indiviual">WhatsApp</h1>
+                                </a>
                                 </div>    
                             </div>
                     </div>

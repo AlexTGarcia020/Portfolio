@@ -821,14 +821,14 @@
             display: flex;
             justify-content: center;
             margin-top: 350px;
-            margin-left: -255px;
+            margin-left: 0px;
           }
 
           .text-main-tecnologias {
             font-size: 48px !important;
             display: flex;
             justify-content: center;
-            margin-left: -475px;
+            margin-left: 0px !important;
             margin-bottom: 10px;
           }
 
@@ -842,7 +842,7 @@
             align-items: center;
             justify-content: center;
             padding: 0;
-            margin-left: -200px;
+            margin-left: 0px;
             margin-bottom: 20px;
           }
 
@@ -860,7 +860,7 @@
 
           .content-texts {
             margin: 0 !important;
-            margin-left: -200px !important;
+            margin-left: 0px !important;
           }
 
           .text-about {

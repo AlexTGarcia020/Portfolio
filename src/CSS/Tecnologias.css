@@ -808,7 +808,7 @@
     @media only screen and (max-width: 600px) {
         .fondo-imagen {
             position: absolute;
-            top:  70%;
+            top:  90%;
             width: 77%;
             height: 50%;
             background-position: top !important;

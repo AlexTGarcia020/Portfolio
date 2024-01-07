@@ -25,7 +25,7 @@ function Tecnologias () {
               <Icon className="text-white icon-media me-2" style={{ fontSize: "33px" }} icon="mdi:github-box" />
               <div className="responsive-about">
                 <p className="text-white fs-4">Descarga Mi </p>
-                <form action="https://www.dropbox.com/scl/fi/30gig6l5ityc8em5qn3xh/CV-Alex-Garc-a.pdf?rlkey=1g7w7cujiekf91qpshx5thv8w&dl=0" target="_blank">
+                <form action="https://www.dropbox.com/scl/fi/6e6oc81oyqa8y770j6gkl/CV-AlexG-2024.pdf?rlkey=ouhnhdn26l8hvq1yux0dr77kd&dl=0" target="_blank">
                   <button className="btn-cv" type="submit">CV<Icon className="fs-4" icon="material-symbols:download" /></button>
                 </form>
               </div>

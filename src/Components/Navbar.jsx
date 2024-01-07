@@ -27,25 +27,35 @@ function Navbar() {
           <div className="mt-3">
             <div className="icon-box d-flex gap-2">
                         <div className="iconContent">
+                        <a style={{textDecoration:"none"}} className="text-white mb-1" href={"#inicio"}>
                             <Icon icon="material-symbols:home-app-logo" className="fs-3" />
+                        </a>
                         </div>
                         <div className="iconContent">
-                            <Icon icon="material-symbols:code" className="fs-3"/>
+                        <a style={{textDecoration:"none"}} className="text-white mb-1" href={"#proyectos"}>
+                                <Icon icon="material-symbols:code" className="fs-3"/>
+                        </a>
                         </div>
                         <div className="iconContent">
-                            <Link to={"#tecnologias"}>
+                            <a style={{textDecoration:"none"}} className="text-white mb-1" href={"#tecnologias"}>
                                 <Icon icon="material-symbols:person-4-outline-rounded" className="fs-3" />
-                            </Link>
+                            </a>
                         </div>
                             <hr className="vertical-hr me-1" />
                         <div className="iconContentII">
+                        <a style={{textDecoration:"none"}} className="text-white mb-1" href={"https://www.linkedin.com/in/alex-garcia20/"}>
                             <Icon icon="akar-icons:linkedinv2-fill" className="fs-3" />
+                        </a>
                         </div>
                         <div className="iconContentII">
+                        <a style={{textDecoration:"none"}} className="text-white mb-1" href={"https://github.com/AlexTGarcia020"}>
                             <Icon icon="uil:github-alt" className="fs-3" />
+                        </a>
                         </div>    
                         <div className="iconContentII">
+                        <a style={{textDecoration:"none"}} className="text-white mb-1" href={"https://wa.link/yz76f6"}>
                             <Icon icon="mdi:whatsapp" className="fs-3" />
+                        </a>
                         </div>
                         <div className="ms-5">
                             <img src="/Logo.svg" alt="logo-alex-nordic" className="img-fluid" />
@@ -79,7 +89,7 @@ function Navbar() {
                            </div>    
                             <div className="individual-burger">
                             <a style={{textDecoration:"none"}} className="Link-Navbar" href={"#tecnologias"}>
-                                <Icon icon="material-symbols:person-4-outline-rounded" className="fs-2" /><h1 className="text-indiviual">Sobre Mi</h1>
+                                <Icon icon="material-symbols:person-4-outline-rounded" className="fs-2" /><h1 className="text-indiviual">Habilidades</h1>
                             </a>
                             </div>                                
                             <div className="individual-burger">

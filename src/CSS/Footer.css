@@ -111,4 +111,12 @@ footer {
    .container-footer {
     margin-left: 55px;
    }
+
+   footer {
+    background-color: black;
+    color: white;
+    padding: 20px !important;
+    text-align: center;
+  }
+  
 }

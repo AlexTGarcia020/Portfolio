@@ -37,7 +37,7 @@ function Tecnologias () {
                 <br />
                 <h4 className="fs-4 text-hability fw-bold">Habilidades Principales:</h4>
                 <br/>
-                <div class="skills">
+                <div className="skills">
                     <div>HTML5</div>
                     <div>CSS</div>
                     <div>JavaScript</div>
@@ -58,7 +58,7 @@ function Tecnologias () {
                 <br />
                 <h4 className="fs-4 mt-2 text-hability fw-bold">Idiomas:</h4>
                 <br/>
-                <div class="idiomas">
+                <div className="idiomas">
                     <div>Español : Nativo</div>
                     <div>Ingles : Intermedio</div>
                 </div>

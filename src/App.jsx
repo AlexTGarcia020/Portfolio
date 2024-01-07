@@ -9,6 +9,7 @@ import Proyectos from './Components/Proyectos';
 import Footer from './Components/Footer';
 
 import './App.css';
+import Scroll2 from './Components/Scroll-1';
 
 function App() {
   const [{ scroll }, set] = useSpring(() => ({ scroll: 0 }));
@@ -65,6 +66,7 @@ function App() {
           </section>
         </animated.div>
         <Tecnologias/>
+        <Scroll />
         <section id="proyectos">
           <Proyectos />
         </section>
@@ -76,7 +78,7 @@ function App() {
       </MediaQuery>
       <MediaQuery maxDeviceWidth={767}>
       <Navbar /> 
-      <div className="app-content" style={{height:'600vh'}}>
+      <div className="app-content" style={{height:'618vh'}}>
         <animated.div
           className="parallax-effect"
           style={{
@@ -115,6 +117,7 @@ function App() {
           </section>
         </animated.div>
         <Tecnologias/>
+        <Scroll2 />
         <section id="proyectos">
           <Proyectos />
         </section>

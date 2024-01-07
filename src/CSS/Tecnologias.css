@@ -808,27 +808,27 @@
     @media only screen and (max-width: 600px) {
         .fondo-imagen {
             position: absolute;
-            top:  90%;
+            top:  95%;
             width: 77%;
             height: 50%;
             background-position: top !important;
             border-radius: 12.8rem;
             margin-bottom: 30px;
-            margin-top: 120px !important;
+            margin-top: 100px !important;
           }
 
           .tecnologias-container {
             display: flex;
             justify-content: center;
             margin-top: 350px;
-            margin-left: -50px;
+            margin-left: -255px;
           }
 
           .text-main-tecnologias {
             font-size: 48px !important;
             display: flex;
             justify-content: center;
-            margin-left: 0px !important;
+            margin-left: -475px;
             margin-bottom: 10px;
           }
 
@@ -842,7 +842,7 @@
             align-items: center;
             justify-content: center;
             padding: 0;
-            margin-left: 30px;
+            margin-left: -200px;
             margin-bottom: 20px;
           }
 
@@ -860,14 +860,14 @@
 
           .content-texts {
             margin: 0 !important;
-            margin-left: 50px !important;
+            margin-left: -200px !important;
           }
 
           .text-about {
             font-size: 16px !important;
             text-align: center;
             width: 250px;
-            margin-left: calc((100% - 555px) / 2);
+            margin-left: calc((100% - 525px) / 2);
           }
 
           .text-hability {

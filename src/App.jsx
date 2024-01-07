@@ -78,7 +78,7 @@ function App() {
       </MediaQuery>
       <MediaQuery maxDeviceWidth={767}>
       <Navbar /> 
-      <div className="app-content" style={{height:'625vh'}}>
+      <div className="app-content" style={{height:'617vh'}}>
         <animated.div
           className="parallax-effect"
           style={{

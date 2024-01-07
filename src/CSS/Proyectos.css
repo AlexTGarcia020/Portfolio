@@ -181,6 +181,10 @@
         font-size: 50px;
     }
     
+    figure {
+      padding-left: 0;
+    }
+
     .row {
         margin-left: -30px;
         width: fit-content;

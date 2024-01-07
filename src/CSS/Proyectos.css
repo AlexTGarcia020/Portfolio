@@ -44,11 +44,6 @@
     width: 1200px;
     margin-bottom: 30px;
   }
-  
-
-  /* ---------------------------------------- */
-
-  /* Botones Hover */
 
   .btn-cv-1 {
     background-image: linear-gradient(to right, #000000  11%, #00ffd5   66%);
@@ -179,8 +174,6 @@
 
 
 
-
-/* ---------------------------------- */
 
 @media only screen and (max-width:768px) {
     .row h1 {

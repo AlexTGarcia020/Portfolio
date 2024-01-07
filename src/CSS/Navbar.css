@@ -100,7 +100,6 @@ li {
     height: 40px;
     right: 40px;
     top: 30px;
-    /* Otros estilos */
   }
   
   .menu-burger {
@@ -125,7 +124,6 @@ li {
   
   .bm-menu {
     background: #1B1A22;
-    /* padding: 2.5em 1.5em 0; */
     font-size: 1.15em;
   }
  

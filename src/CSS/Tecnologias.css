@@ -400,7 +400,7 @@
               font-size: 19px !important;
               text-align: center;
               width: 450px !important;
-              margin-left: calc((100% - 450px) / 2) !important;
+              margin-left: calc((100% - 450px) / 2);
             }
     
     
@@ -501,7 +501,7 @@
               font-size: 23px !important;
               text-align: center;
               width: 450px !important;
-              margin-left: calc((100% - 450px) / 2) !important;
+              margin-left: calc((100% - 450px) / 2);
             }
     
     
@@ -689,7 +689,7 @@
               font-size: 16px !important;
               text-align: center;
               width: 250px;
-              margin-left: calc((100% - 430px) / 2) !important;
+              margin-left: calc((100% - 430px) / 2)
             }
     
               .content-texts {

@@ -24,7 +24,8 @@ function App() {
 
   return (
     <>
-      <Navbar />
+    <MediaQuery minDeviceWidth={768}>
+      <Navbar /> 
       <div className="app-content">
         <animated.div
           className="parallax-effect"
@@ -63,16 +64,66 @@ function App() {
             <Scroll />
           </section>
         </animated.div>
-          <section id='tecnologias'>
-                <Tecnologias />
-          </section>
-          <section id="proyectos">
-            <Proyectos />
-          </section>
-          <section>
-            <Footer />
-          </section>
+        <Tecnologias/>
+        <section id="proyectos">
+          <Proyectos />
+        </section>
+        <section>
+          <Footer />
+        </section>
+      
       </div>
+      </MediaQuery>
+      <MediaQuery maxDeviceWidth={767}>
+      <Navbar /> 
+      <div className="app-content" style={{height:'600vh'}}>
+        <animated.div
+          className="parallax-effect"
+          style={{
+            transform: scroll.interpolate((s) => `translateY(-${s * 0.5}px)`),
+          }}
+        >
+          <section id='inicio'>
+            <div className='text-white content-text-main'>
+              <div className='d-flex justify-content-center'>
+              <MediaQuery maxWidth={500}>
+                {(matches) =>
+                  matches ? (
+                    <h1 className='text-inicio-sm'>
+                         Este es uno de mis proyectos: mi Portfolio Personal. Aquí podrás ver mis proyectos, siempre actualizados, junto con mi experiencia en tecnologías, metodologías, bibliotecas, frameworks y bases de datos aprendidas. Además, podrás descargar mi CV más abajo. No dudes en contactarme a través de mis redes. Si estás leyendo esto, es probable que seas un reclutador o un colega de profesión. ¡Espero que te guste!<strong> Alex Garcia ©2024</strong>
+                    </h1>
+                  ) : (
+                    <MediaQuery minWidth={501} maxWidth={1300}>
+                      {(matches) =>
+                        matches ? (
+                          <h1 className='text-inicio-md'>
+                               Este es uno de mis proyectos: mi Portfolio Personal. Aquí podrás ver mis proyectos, siempre actualizados, junto con mi experiencia en tecnologías, metodologías, bibliotecas, frameworks y bases de datos aprendidas. Además, podrás descargar mi CV más abajo. No dudes en contactarme a través de mis redes. Si estás leyendo esto, es probable que seas un reclutador o un colega de profesión. ¡Espero que te guste!<strong> Alex Garcia ©2024</strong>
+                          </h1>
+                        ) : (
+                          <h1 className='text-inicio'>
+                            Este es uno de mis proyectos: mi Portfolio Personal. Aquí podrás ver mis proyectos, siempre actualizados, junto con mi experiencia en tecnologías, metodologías, bibliotecas, frameworks y bases de datos aprendidas. Además, podrás descargar mi CV más abajo. No dudes en contactarme a través de mis redes. Si estás leyendo esto, es probable que seas un reclutador o un colega de profesión. ¡Espero que te guste!<strong> Alex Garcia ©2024</strong>
+                          </h1>
+                        )
+                      }
+                    </MediaQuery>
+                  )
+                }
+              </MediaQuery>
+              </div>
+            </div>
+            <Scroll />
+          </section>
+        </animated.div>
+        <Tecnologias/>
+        <section id="proyectos">
+          <Proyectos />
+        </section>
+        <section>
+          <Footer />
+        </section>
+      
+      </div>
+      </MediaQuery>
     </>
   );
 }

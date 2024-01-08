@@ -173,6 +173,24 @@
 }
 
 
+@media only screen and (max-width:1500px) {
+  
+  .img-proyects {
+    border-radius: 13px;
+    width: 370px !important;
+    transition: transform 0.45s ease-in !important;
+    margin-bottom: 10px;
+}
+
+  figure {
+    padding-left: -20px !important;
+  }
+
+  .row {
+    padding-left: 0 !important;
+  }
+
+}
 
 
 @media only screen and (max-width:768px) {

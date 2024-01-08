@@ -32,14 +32,14 @@ function Navbar() {
                         </a>
                         </div>
                         <div className="iconContent">
-                        <a style={{textDecoration:"none"}} className="text-white mb-1" href={"#proyectos"}>
-                                <Icon icon="material-symbols:code" className="fs-3"/>
-                        </a>
-                        </div>
-                        <div className="iconContent">
                             <a style={{textDecoration:"none"}} className="text-white mb-1" href={"#tecnologias"}>
                                 <Icon icon="material-symbols:person-4-outline-rounded" className="fs-3" />
                             </a>
+                        </div>
+                        <div className="iconContent">
+                        <a style={{textDecoration:"none"}} className="text-white mb-1" href={"#proyectos"}>
+                                <Icon icon="material-symbols:code" className="fs-3"/>
+                        </a>
                         </div>
                             <hr className="vertical-hr me-1" />
                         <div className="iconContentII">
@@ -58,6 +58,7 @@ function Navbar() {
                         </a>
                         </div>
                         <div className="ms-5">
+                            
                             <img src="/Logo.svg" alt="logo-alex-nordic" className="img-fluid" />
                         </div>
                     </div>        

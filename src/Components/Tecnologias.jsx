@@ -21,9 +21,13 @@ function Tecnologias () {
         <div className='row'>
           <div className='col text-center'>
             <div className="icons-media">
+            <a style={{textDecoration:"none"}} className="text-white mb-1" href={"https://www.linkedin.com/in/alex-garcia20/"}>
               <Icon className="text-white icon-media" style={{ fontSize: "25px" }} icon="uiw:linkedin" />
-              <Icon className="text-white icon-media me-2" style={{ fontSize: "33px" }} icon="mdi:github-box" />
-              <div className="responsive-about">
+             </a> 
+              <a style={{textDecoration:"none"}} className="text-white mb-1" href={"https://github.com/AlexTGarcia020"}>
+                <Icon className="text-white icon-media me-2" style={{ fontSize: "33px" }} icon="mdi:github-box" />
+              </a>
+                <div className="responsive-about">
                 <p className="text-white fs-4">Descarga Mi </p>
                 <form action="https://drive.google.com/file/d/11bNENKlZExMUWapBuwZ1Bw38MyO9wF0P/view?usp=drive_link" target="_blank">
                   <button className="btn-cv" type="submit">CV<Icon className="fs-4" icon="material-symbols:download" /></button>

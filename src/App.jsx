@@ -65,7 +65,9 @@ function App() {
             <Scroll />
           </section>
         </animated.div>
+        <section id='tecnologias'>
         <Tecnologias/>
+        </section>
         <Scroll />
         <section id="proyectos">
           <Proyectos />

@@ -182,8 +182,19 @@
     }
     
     figure {
-      padding-left: 0;
+      padding-left: 10px;
     }
+
+    .container-proyects {
+      padding-left: 0px !important;
+      padding-right: 40px !important;
+    }
+    
+    .img-proyects {
+      border-radius: 13px;
+      width: 370px !important;
+      transition: transform 0.45s ease-in !important;
+  }
 
     .row {
         margin-left: -30px;
@@ -195,7 +206,7 @@
     .text-proyect {
         margin-top: 130px !important;
         display: flex;
-        padding-left: 100px;
+        padding-left: 95px;
     }
 
     .text-proyect-two {

@@ -810,18 +810,18 @@
             position: absolute;
             top:  95%;
             width: 77%;
-            height: 50%;
+            height: 40%;
             background-position: top !important;
             border-radius: 12.8rem;
             margin-bottom: 30px;
-            margin-top: 100px !important;
+            margin-top: 110px !important;
           }
 
           .tecnologias-container {
             display: flex;
             justify-content: center;
             margin-top: 350px;
-            margin-left: -250px;
+            margin-left: -260px;
           }
 
           .text-main-tecnologias {

@@ -67,7 +67,7 @@ function Proyectos() {
             Clon De Twitter No Deployeado 
             *Imagenes y Explicacion*
           </figcaption>
-          <a style={{textDecoration:"none"}} target="_blank" href="https://drive.google.com/drive/folders/1I09gg5Jja4oeP9p8F7wIXdw3Ag5nklei?usp=sharing">
+          <a style={{textDecoration:"none"}} target="_blank" href="https://drive.google.com/drive/folders/1I09gg5Jja4oeP9p8F7wIXdw3Ag5nklei?usp=drive_link">
             <button className="btn-cv-5" type="button">Link</button>
           </a>
         </div>

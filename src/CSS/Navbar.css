@@ -275,4 +275,10 @@ li {
         margin-left: 51.1vw;
       }
     }
+
+    @media only screen and (min-width: 1600px) {
+      .img-fluid {
+        margin-left: 55.1vw;
+      }
+    }
   
